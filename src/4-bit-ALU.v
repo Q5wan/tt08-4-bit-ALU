@@ -1,3 +1,10 @@
+/*
+ * Copyright (c) 2024 Ben Landon
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+`default_nettype none
+
 module tt_um_Q5wan_4_bit_ALU (
     input  wire [7:0] ui_in,    // Dedicated inputs
     output wire [7:0] uo_out,   // Dedicated outputs
