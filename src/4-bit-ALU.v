@@ -50,5 +50,7 @@ module tt_um_Q5wan_4_bit_ALU (
   assign uo_out  = Y; // Output the result Y
   assign uio_out = 0; 
   assign uio_oe  = 0; 
+  wire _unused = &{ena, 1'b0};
 
 endmodule
+
