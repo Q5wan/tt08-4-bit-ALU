@@ -14,7 +14,14 @@ When two four-bit values are entered into registers A and B the output Y will gi
 ## How to test
 
 Input a binary value into the A and B registers then select an operation and see the result on the output Y.
-
+      000 : Y = A + B;
+      001 : Y = A - B;
+      010 : Y = A & B;
+      011 : Y = A | B;
+      100 : Y = A ^ B;
+      101 : Y = ~A;
+      110 : Y = A >> 1;
+      111 : Y = A << 1;
 ## External hardware
 
 Some interrupters and LEDS for inputting and seeing the results.
