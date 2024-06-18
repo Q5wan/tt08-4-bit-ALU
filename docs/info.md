@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+When two four-bit values are entered into registers A and B the output Y will give you a result based on the Operation being performed.
 
 ## How to test
 
-Explain how to use your project
+Input a binary value into the A and B registers then select an operation and see the result on the output Y.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+Some interrupters and LEDS for inputting and seeing the results.
