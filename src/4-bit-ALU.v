@@ -5,7 +5,7 @@
 
 `default_nettype none
 
-module tt_um_Q5wan_4_bit_ALU (
+module tt_um_Q5wan_4_bit_ALU ALU_instance(
     input  wire [7:0] ui_in,    // Dedicated inputs
     output wire [7:0] uo_out,   // Dedicated outputs
     input  wire [7:0] uio_in,   // IOs: Input path
@@ -15,7 +15,6 @@ module tt_um_Q5wan_4_bit_ALU (
     input  wire       clk,      // clock
     input  wire       rst_n     // reset_n - low to reset
 );
-
   // Register declarations
   reg [7:0] A, B;     // Registers for storing inputs A and B
   reg [7:0] Y;        // Register for storing output Y
