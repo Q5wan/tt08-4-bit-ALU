@@ -5,7 +5,7 @@
 
 `default_nettype none
 
-module top_module (
+module tt_um_Q5wan_4_bit_ALU (
     input  wire [7:0] ui_in,    // Dedicated inputs
     output wire [7:0] uo_out,   // Dedicated outputs
     input  wire [7:0] uio_in,   // IOs: Input path
@@ -17,7 +17,7 @@ module top_module (
 );
 
   // Instantiate the 4-bit ALU module
-  tt_um_Q5wan_4_bit_ALU ALU_instance (
+  ALU ALU_instance (
       .ui_in(ui_in),
       .uo_out(uo_out),
       .uio_in(uio_in),
@@ -30,7 +30,7 @@ module top_module (
 
 endmodule
 
-module tt_um_Q5wan_4_bit_ALU (
+module ALU (
     input  wire [7:0] ui_in,    // Dedicated inputs
     output wire [7:0] uo_out,   // Dedicated outputs
     input  wire [7:0] uio_in,   // IOs: Input path
